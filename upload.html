@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <nav>
+        <h2>Azure Health Portal</h2>
+        <a href="index.html">Home</a>
+        <a href="upload.html">Upload</a>
+    </nav>
+
+    <section class="container">
+        <h1>Upload Medical File</h1>
+        <p>This is a basic simulation — later you will integrate Azure Blob Storage.</p>
+
+        <form>
+            <input type="file" />
+            <br><br>
+            <button type="button" onclick="uploadMessage()">Upload</button>
+        </form>
+    </section>
+
+    <script>
+        function uploadMessage() {
+            alert("Pretend file uploaded! (Blob Storage integration coming soon)");
+        }
+    </script>
+
+</body>
+</html>
